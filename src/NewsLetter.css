@@ -1,0 +1,35 @@
+.footer{
+  display: grid;
+  margin: 80px 40px 0;
+  padding: 20px 40px;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.footer-logo{
+  height: 180px;
+  width: 380px;
+}
+
+.first{
+  margin-right: 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+
+i{
+  margin-right: 10px;
+}
+
+.second,ul{
+  display: flex;
+  text-align: center;
+}
+
+li{
+  margin-right: 20px;
+}

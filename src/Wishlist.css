@@ -1,0 +1,17 @@
+.tags{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tags div{
+  width: 30%;
+  text-align: center;
+}
+
+.content{
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}

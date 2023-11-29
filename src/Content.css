@@ -1,0 +1,22 @@
+img{
+  height: 200px;
+  width: 200px;
+}
+
+.main{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main div{
+  width: 300px;
+}
+
+p{
+  margin-top: 20px;
+}
+
+h1{
+  margin: 50px;
+  text-align: center;
+}

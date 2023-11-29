@@ -1,0 +1,17 @@
+.navbar-logo{
+  height: 50px;
+  width: 100px;
+}
+
+button.btn.btn-primary{
+  padding: 10px 25px;
+  color: #FFB607;
+  background-color: whitesmoke;
+  border: 2px solid #FFB607;
+  transition: all 100ms ease-in-out;
+}
+
+button.btn.btn-primary:hover{
+  background-color: #FFB607;
+  color: white;
+}
