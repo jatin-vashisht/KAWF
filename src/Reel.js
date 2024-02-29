@@ -5,7 +5,6 @@ const Reel = ({src}) => {
     <video
       width="80%"
       height="80%"
-      autoPlay
       controls
     >
       <source src={src} type="video/mp4" />

@@ -13,9 +13,9 @@ export default function Content() {
           <img className='header-image' src={adopt} alt="" />
           <h5>Adopt</h5>
         </div>
-        <div>
+        <div style={{display: 'flex', flexDirection: 'column'}}>
           <img className='header-image' src={donate} alt="" />
-          <h5>Donate</h5>
+          <a style={{color: 'black', fontWeight: 500, fontSize: '1.25rem'}} href='https://www.impaac.org/fundraisers/support-kawfcares-foundation-to-save-the-voiceless/65575e802d139c5701e923e2?fbclid=PAAaY2GoC899tG2VxYmkSdV1yxuN1PnfExPqk33YOEEzxXsTdef-2A_SAkvqY_aem_ATLWnlgzMiOLp94sivo_hyatFJRIsH6esubKfilcjS8jk3HsOn2Qk0lBZjT_BqDs5kI'>Donate</a>
         </div>
         <div>
           <img className='header-image' src={volunteer} alt="" />

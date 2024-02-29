@@ -35,7 +35,7 @@ const Feeds = () => {
       <h1>Feeds</h1>
       <div className="feeds">
         {feeds.map((feed) => (
-          <Reel key={feed.node.media.pk} src={feed.node.media.video_versions[0].url} />
+          <Reel key={feed.node.media.pk} src={feed.node.media.video_versions[0].url}/>
         ))}
       </div>
     </>
