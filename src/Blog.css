@@ -1,0 +1,17 @@
+.blog-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 75px;
+}
+
+.blog{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px gray;
+    
+}
+
+.blog-tag{
+    font-size: 2rem;
+}
